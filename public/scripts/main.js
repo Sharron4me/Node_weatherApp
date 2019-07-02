@@ -1,4 +1,4 @@
-console.log("Fired");
+//console.log("Fired");
 // function weather(loc)
 // {
 //     document.getElementsByClassName('result').innerHTML='Aditya';
