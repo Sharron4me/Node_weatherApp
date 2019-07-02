@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Weather</title>
+        <link rel="icon" href="images/weather.png">
+         <link rel="stylesheet" href="css/styles.css"></link>  
+  
+    </head>
+    <body>
+        <div class="main-content">
+             {{>header}}
+             
+             <form class="weather-form">
+                 <div class="ques">Please enter the location</div>
+                 <input type="text" placeholder="Location" class="loc"><br>
+                 <button class="getweather">Get Weather!</button>
+                 <div class="result" id="result"></div><br>
+                 <div class="result_weather" id="result_weather"></div>
+             </form>
+        </div>
+        {{>footer}}
+               <script src="scripts/main.js"></script>
+    </body>
+</html>
