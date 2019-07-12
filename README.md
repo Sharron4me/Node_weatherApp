@@ -3,3 +3,4 @@ The application uses the Mapbox API for the fetching the co-ordinates of the ent
 This co-ordinates are then passed onto the DarkSky API which provides the weather for the given input.
 The app is up and running on https://addy-weather-app.herokuapp.com/
 
+
